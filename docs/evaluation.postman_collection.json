@@ -1,0 +1,245 @@
+{
+	"id": "90ee7ae5-ecbb-85d8-17ea-298db01af190",
+	"name": "evaluation",
+	"description": "",
+	"order": [
+		"f4795ace-72b3-0498-4d41-966098fbf688",
+		"5bbb3fa4-ab44-2c50-c4df-2e0d7e1374a5",
+		"6b70d225-e88f-99aa-9ea0-a92c36bb40ea",
+		"478913a1-67cb-2d43-6c1d-0f6a71fa7d54"
+	],
+	"folders": [],
+	"timestamp": 1494860046201,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "478913a1-67cb-2d43-6c1d-0f6a71fa7d54",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/notes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "90ee7ae5-ecbb-85d8-17ea-298db01af190",
+			"data": [
+				{
+					"key": "firstname",
+					"value": "clark",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lastname",
+					"value": "kent",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "age",
+					"value": "35",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "class",
+					"value": "super-hero",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "gender",
+					"value": "M",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "student",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mark",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "get - api/notes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494868645744,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5bbb3fa4-ab44-2c50-c4df-2e0d7e1374a5",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/students",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "90ee7ae5-ecbb-85d8-17ea-298db01af190",
+			"data": [
+				{
+					"key": "firstname",
+					"value": "clark",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "kent",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "35",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class",
+					"value": "super-hero",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "M",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "get - api/candidates",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494862939029,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6b70d225-e88f-99aa-9ea0-a92c36bb40ea",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/notes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "90ee7ae5-ecbb-85d8-17ea-298db01af190",
+			"data": [
+				{
+					"key": "firstname",
+					"value": "clark",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "lastname",
+					"value": "kent",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "age",
+					"value": "35",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "class",
+					"value": "super-hero",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "gender",
+					"value": "M",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "student",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mark",
+					"value": "16",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "post - api/notes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494868629350,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f4795ace-72b3-0498-4d41-966098fbf688",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:1337/api/students",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "90ee7ae5-ecbb-85d8-17ea-298db01af190",
+			"data": [
+				{
+					"key": "firstname",
+					"value": "clark",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastname",
+					"value": "kent",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "35",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "class",
+					"value": "super-hero",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gender",
+					"value": "M",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "post - api/candidates",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494862879161,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
